@@ -60,3 +60,78 @@
 .add-operations {
   text-align: left;
 }
+
+.inputError {
+  background-color: salmon;
+  border-color: salmon;
+}
+
+.inputOk {
+  background-color: white;
+  border-color: white;
+}
+
+.header {
+  background-color: #617cd6;
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+}
+
+.header {
+  background-color: #617cd6;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.header button {
+  background-color: #fff;
+  color: #617cd6;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-link {
+  display: inline-block;
+  background-color: #617cd6;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* button {
+  background-color: navy;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+  background-color: #0a4a6e;
+} */
